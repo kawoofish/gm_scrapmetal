@@ -2,10 +2,9 @@
 
 Welcome to the site / repository where I'm hosting the map files and assets used in gm_scrapmetal. There's a couple links and files scattered around so I'll sum up what's going on here:
 
-- **Download Scrap Metal Valve Map Files (VMFs) and assets here**
-- **Documentation of known issues and other info on the map files here**
-- **Rambling retrospective and design thoughts below**
-- **Resources used and Special Thanks below**
+- [Click to Download Scrap Metal Valve Map Files (VMFs) and assets](https://github.com/kawoofish/gm_scrapmetal/releases/tag/Version-5-Release)
+
+- [Click to view Documentation of known issues and other info on the map files here](/docs.md)
 
 A quick summary: "Final Edition" just denotes that this will be the last major update and rework of the map. I'm happy to work with others and continue support if there are known issues or hotfixes needed, but from my personal experience, I'm satisfied with how this version of the map has turned out, and would like to move on to new maps and ideas. I'm hosting everything here in hopes it will be easy to download the map files and assets, and to share more information beyond just the Steam Workshop page.
 
@@ -39,7 +38,7 @@ If you're familiar with Battlefield 3's DLCs, you may remember "Close Quarters",
 
 ![Battlefield 3: Scrapmetal](/img/bf3_scrapmetal.png)
 
-While you could remake that map straight from Battlefield 3 (and there is a wonderful TTT version that [author]() made [here](), I wanted to find some way to adapt it to GMod Zombie Survival, and make a somewhat more open map (this goes against a lot of the zombie survival gameplay loop, I later found out). So, with all this in mind, I opened up Hammer and started trying to make something out of it
+While you could remake that map straight from Battlefield 3 (and there is a wonderful TTT version that [Nahte](https://steamcommunity.com/id/Nahte99) made [here](https://steamcommunity.com/sharedfiles/filedetails/?id=228105814&searchtext=scrapmetal)), I wanted to find some way to adapt it to GMod Zombie Survival, and make a somewhat more open map (this goes against a lot of the zombie survival gameplay loop, I later found out). So, with all this in mind, I opened up Hammer and started trying to make something out of it
 
 ## Greybox... or not
 
@@ -66,6 +65,8 @@ I do remember distinctly for this spawn room, I referenced some real world pictu
 ![Helicopter](/img/helicopter.jpg)
 
 In terms of zombie survival gameplay, this room doesn't really do anything except give humans a safe place to spawn (I remember on my old computer spawning into a zombie survival map would usually take me into the middle of the game). There is one room that is potentially usable, although it only has 1 doorway and some holes in the roof. The elevator shafts in the back also did not open until wave 2, to give humans a chance to safely spawn in through wave 1.
+
+![Spawn](/img/spawn.jpg)
 
 In V4, I wanted to better utilize some of this space, or more accurately, the whole building. So I added a big open warehouse underneath, that is mainly empty to give players a build area in Sandbox. I also had what I dub the "Steam room", which is the room on the roof connected to the elevator shafts, and contains some generators, pipes, and machinery. I also had the idea of having this as a HL2 resistance hideout, and have these little lambda marked areas scattered around
 
@@ -124,7 +125,11 @@ For the longest time, I didn't know what to do with the big concrete space with 
 
 One idea I had floating around was having a night version of the map. A lot of Zombie Survival maps tend to be set at night time, since it fits the setting well and makes things more eerie, but I liked the day version and what it let me do with abandoned, dusty areas (hence the volumetric light models, fog, dustmote effects, etc.) The night version ended up being a fun thing to create and was actually a little more involved than I first thought. Much of the exterior soundscapes needed to be changed (I didn't want active city noise at night time). Lights and some areas had to be tweaked, and the trainyard and park had their lamps turned on. I still wanted to give it a dark feel in some areas, to encourage those who like to use night vision mods or something along those lines.
 
+![Hammer](/img/hammer.png)
+
 Overall, I'm really happy with how this final version turned out. I've already seen there were a few minor mistakes or bugs, but this has been a few months coming, and I'm glad to take this to completion. I'm sure I'll look back on this in the future and think it doesn't hold up, but that's just part of the learning process.
+
+![Hammer2](/img/hammer2.png)
 
 ## Closing thoughts and future plans
 
