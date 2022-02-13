@@ -1,3 +1,5 @@
+### [back to homepage](/index.md)
+
 # gm_scrapmetal_v5 Documentation for mappers
 
 This is a quick documentation page I'm throwing together discussing helpful tips, known issues, my personal setup and configurations.
@@ -46,3 +48,5 @@ Hammer++ also fixes the tendency for the default Hammer compiler to freeze up du
 ### Fun facts
 
 I checked back at some old compile logs for the old versions (dated to Oct. 2014), and the map took around an hour to compile (this was on Final settings, static prop lighting). I was probably on some old Intel dual core system and it's a miracle I was even able to get anything out on that old computer. But hopefully those who try and compile this map for their own use won't have as much trouble as I did
+
+### [back to top](/docs.md#back-to-homepage)
