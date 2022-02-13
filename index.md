@@ -162,3 +162,5 @@ When I started on the original versions of this map, I had a basic understanding
  - Pakrat
 
 ### Thanks for reading! Enjoy the map and let me know if you end up making new map variations with the files provided! Feel free to add me on Steam to get in touch
+
+### [back to top](/index.md#gm_scrapmetal_v5-final-edition)
