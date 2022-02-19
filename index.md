@@ -149,6 +149,7 @@ First up, I'll just start listing out a bunch of people that have provided helpf
 - johnny moe
 - Humin
 - Jamesinator
+- ScreechingEagles101623
 
 Next, a big shoutout to the Hammer++ crew and for those who shared its release with me. Even though I only had the chance to use it for the last few beta versions, it is a massive improvement to the Source 1 Hammer editor, and brings it up to modern standards. Considering how out of date and broken the original Hammer Editor has been for the longest time, it's incredible to see such improvement on (what I assume) a closed source tool. I wish I had this a long time ago, but now I'm actually looking forward to working on more maps with this tool. Please show them some support!
 

@@ -1,6 +1,6 @@
-### [back to homepage](/index.md)
-
 # gm_scrapmetal_v5 Documentation for mappers
+
+### [back to homepage](/index.md)
 
 This is a quick documentation page I'm throwing together discussing helpful tips, known issues, my personal setup and configurations.
 
@@ -32,6 +32,20 @@ If you open the map, you'll take one look at the 2D grids and wonder how the hec
 I wasn't very familiar with the cordon tool until recently, and it's been a big help for me. This tool basically allows you to cull and work on certain sections of your map, which not only cleans up some editing space, but also allows you to compile a working section of that map (without having to readjust skybox / leaks). On the old Hammer this became crucial because the map's 3D view could barely handle everything being rendered at once (I used to be on an old computer that was pretty slow).
 
 ![Cordon](/img/hammer3.png)
+
+## Known Issues
+
+### "Too many T-Junctions to fix up!"
+
+Hoooo boy. This error may have been the most frustrating to try and debug after such a long time from the original map creation. For some Source Mappers, you may have never encountered this error before (V4's development was the first time I did), and it's not exactly a simple explanation on what it is / how to fix it. You can search online for exact explanations, [here's a Reddit post that summed it up pretty well](https://www.reddit.com/r/hammer/comments/ceb9dx/comment/eu2kedo/?utm_source=share&utm_medium=web2x&context=3)
+
+Problem statement aside, I'll try and sum up what you could potentially do on this particular map if this comes up. First, start filtering (through visgroups) any potential candidates of func_detail to remove. I had to do this approach throughout the later versions of the map (hence why some world brushes that could be "func_detail" are not). Next, check if any world geometry or func_detail objects are intersecting, clipping, off the grid, etc. Try to keep everything as clean and on grid as possible to give Source an easier job on compile. If those fail and the error is still prevalent, I've found that turning *some* complex objects into func_brush helps solve the issue. Caveats to this are increasing the entdata (func_brush is considered an entity which is more expensive than func_detail, which technically isn't an entity based on my understanding), and there may be some lighting that looks off
+
+### Running the map (.bsp) in other Source games besides GMod
+
+Up until the last few versions of the map, and before Hammer++ had been released, I was using the Half-Life 2 version of Hammer. This worked pretty well, until I started having some weird crashes and issues (ED_Alloc: no free edicts was one). I did my best to try and stay within HL2's engine limits, but ultimately (since this is made for the GMod workshop), I may have gone a little over what a standard Source engine game can allow. GMod has a much higher entity limit (for Sandbox props, other networking stuff), so I'd recommend using GMod for development, unless you're cutting the map down or reworking it for something else.
+
+[Read more about entity limits in Source here](https://developer.valvesoftware.com/wiki/Entity_limit)
 
 ### Hammer compile configurations
 
